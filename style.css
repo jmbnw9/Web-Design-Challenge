@@ -9,5 +9,7 @@ body {
     background-color:skyblue;
     color:white;
 }
-
+#firstimg {
+  float: left;
+}
   
