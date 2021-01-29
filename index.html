@@ -44,47 +44,59 @@
     <div class="container">
         <!--Normally these medium columns go full wide on small screen sizes-->
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-lg-6">
                 <h1 class="box skyblue">Summary: Latitude vs. X</h1>
                 <img src="Resources/assets/images/Fig1.png" height="150">
                 <p>In this project, I wanted to analyze the relationship between weather and the equator.
-                   In doing so, I was able to see if temperature, wind speed, humidity, or cloudiness were in 
-                   way realted to a cities location to the equator.</p>
+                    In doing so, I was able to see if temperature, wind speed, humidity, or cloudiness were in
+                    way realted to a cities location to the equator.</p>
                 <p>To complete my analysis, I first pulled data from the OpenWeatherMap API and created datasets
                     using over 500 cities. Then I used Matplotlib to create scatter plots to show the relationships
-                    between the variables previously mentioned. On this site, you will be able to take a look at four 
-                    different visualizations that I created in my analysis. As well as an explanation of the observations 
+                    between the variables previously mentioned. On this site, you will be able to take a look at four
+                    different visualizations that I created in my analysis. As well as an explanation of the
+                    observations
                     that I found.
                 </p>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <h1 class="box skyblue">Visualizations</h1>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="Resources/assets/images/Fig1.png" height="150">
+                        <a href="max_temp.html">
+                            <img src="Resources/assets/images/Fig1.png" height="150">
+                        </a>
                     </div>
-                    <div class="col-md-6">
-                        <img src="Resources/assets/images/Fig2.png" height="150">
+                    <div class="col-6">
+                        <a href="humidity.html">
+                            <img src="Resources/assets/images/Fig2.png" height="150">
+                        </a>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="Resources/assets/images/Fig3.png" height="150">
+                             <a href="cloudiness.html">
+                                 <img src="Resources/assets/images/Fig3.png" height="150">
+                            </a>   
                         </div>
                         <div class="col-md-6">
-                            <img src="Resources/assets/images/Fig4.png" height="150">
+                            <a href="wind_speed.html">
+                                <img src="Resources/assets/images/Fig4.png" height="150">
+                            </a>    
                         </div>
                     </div>
                 </div>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                    crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-                    crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-                    crossorigin="anonymous"></script>
+            </div>
+        </div>  
+    </div>  
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 
 </body>
 
